@@ -1,0 +1,25 @@
+/* media */
+/* 横屏 */
+@media screen and (orientation:landscape){
+}
+/* 竖屏 */
+@media screen and (orientation:portrait){
+}
+/* 窗口宽度<960,设计宽度=768 */
+@media screen and (max-width:959px){
+	.g-sd1{width:220px;margin-right:-220px;}
+	.g-mn1c{margin-left:220px;}
+}
+/* 窗口宽度<768,设计宽度=640 */
+@media screen and (max-width:767px){
+	.x-post-item-cover{display:none;}
+	.g-sd1{width:190px;margin-right:-190px;}
+	.g-mn1c{margin-left:190px;}
+}
+/* 窗口宽度<640,设计宽度=480 */
+@media screen and (max-width:639px){
+	.x-mbar{display:block;}
+	.g-mn1{margin-top:50px;}
+	.g-sd1{width:190px;margin-left:-190px;}
+	.g-mn1c{margin-left:0;}
+}

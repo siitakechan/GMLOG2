@@ -1,0 +1,19 @@
+title: GMLOG2 目录结构说明
+category: essay
+date: 2016-07-07 15:56
+cover: 
+>>>--->
+
+目录结构说明：
+
+	├─article			// 存放文章
+	├─css				// 样式表
+	├─img				// 图片
+	│  └─covers			// 预置随机封面
+	├─js				// 支撑博客运行的 javascript 文件
+	│  └─highlight		// 第三方代码高亮工具包
+	│      └─styles		// 代码高亮样式
+	└─page				// 存放页面
+
+
+*版权声明：原创内容未经允许请勿转载。*
